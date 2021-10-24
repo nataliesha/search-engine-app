@@ -6,7 +6,7 @@ function App() {
     <div className="App">
        <div>
       <header className="App-header">
-      <h1>Welcom to my app!</h1>
+      <h1>Welcome to my app!</h1>
             </header>
       </div>
     </div>
