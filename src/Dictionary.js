@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import React, { useState } from 'react';
 import './Dictionary.css';
+import Results from "./Results.js";
 import axios from "axios";
 
 
@@ -8,7 +9,7 @@ export default function Dictionary() {
     let [keyword, setKeyword] = useState("");
 
     function handleResponse(response) {
-        console.log(response.data[0]);
+        console.log(response.data[0].meanings[0].definitions[0].definition);
 
     }
 
@@ -28,6 +29,7 @@ export default function Dictionary() {
 <form onSubmit={search}>
     <input type="search" onChange={handleKeywordChange}></input>
 </form>
+<Results />
 </div>
     );
 }
