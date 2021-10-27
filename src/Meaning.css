@@ -1,0 +1,10 @@
+.meaning h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;   
+}
+
+.meaning .example {
+    font-size: 14px;
+    font-style: italic;
+}
