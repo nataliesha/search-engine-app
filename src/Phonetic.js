@@ -1,4 +1,5 @@
 import React from "react";
+import "./Phonetic.css";
 
 
 export default function Phonetic(props) {
@@ -10,7 +11,7 @@ const start = () => {
 
     return (
         <div className="phonetic">
-            <button className="btn btn-primary border-0" onClick={start}>▶︎ &nbsp; Listen</button>
+            <button className="phonetic-button" onClick={start}>▶︎ &nbsp; Listen</button>
             <span className="pronounce">({props.phonetic.text})</span>
         </div>
     );
