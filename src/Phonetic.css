@@ -8,7 +8,24 @@
     font-weight: 600;
     color: #fff;
     border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(228, 225, 225, 0.7);
+    box-shadow: 0px 8px 15px rgba( 0, 0, 0, 0.7);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.phonetic > .phonetic-button:hover {
+    background-color: #ae7cf9;
+    width: 100px;
+    height: 40px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;

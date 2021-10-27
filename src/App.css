@@ -14,11 +14,11 @@ footer {
 
 ::selection {
 	color: #000000;
-	background-color: #9855fc;
+	background-color: #ae7cf9;
 }
 
 /* for firefox */
 ::moz-selection {
 	color: #000000;
-	background-color:#9855fc;
+	background-color: #ae7cf9;
 }
