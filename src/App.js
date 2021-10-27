@@ -10,7 +10,7 @@ export default function App() {
       <h1>Ask me something...</h1>
             </header>
             <main>
-              <Dictionary />
+              <Dictionary defaultkeyword="magic"/>
             </main>
             <footer className="text-center"><small>Coded by Natalie Sharoni</small></footer>
       </div>
