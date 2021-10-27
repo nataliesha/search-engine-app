@@ -7,3 +7,14 @@ footer {
   text-align: center;
   margin: 30px 0;
 }
+
+::selection {
+	color: #000000;
+	background-color: #9855fc;
+}
+
+/* for firefox */
+::moz-selection {
+	color: #000000;
+	background-color:#9855fc;
+}
