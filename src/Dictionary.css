@@ -8,11 +8,12 @@
 
 .dictionary input {
     width: 100%;
-    padding: 6px 4px;
+    padding: 6px 10px;
     border: 1px solid #ddd;
     color: #333;
     border-radius: 12px;
     margin-top: 12px;
+    font-weight: 600;
 }
 
 .dictionary .hint {

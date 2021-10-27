@@ -11,7 +11,7 @@ const start = () => {
 
     return (
         <div className="phonetic">
-            <button className="phonetic-button" onClick={start}>▶︎ &nbsp; Listen</button>
+            <button className="phonetic-button" onClick={start}>▶︎ Listen</button>
             <span className="pronounce">({props.phonetic.text})</span>
         </div>
     );
