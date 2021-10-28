@@ -4,9 +4,9 @@ import Dictionary from './Dictionary';
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="app">
        <div className="container">
-      <header className="App-header">
+      <header className="app-header">
       <h1>Ask me something...</h1>
             </header>
             <main>

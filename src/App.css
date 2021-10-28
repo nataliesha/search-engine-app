@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+.app {
+  padding: 60px 0 100px;
+}
+
+
 body {
   background-color: #F5F1EE;
   font-family: 'Poppins', sans-serif;

@@ -18,6 +18,9 @@ export default function Dictionary(props) {
     function search() {
         let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
         axios.get(apiUrl).then(handleResponse);
+
+        let pexelsApiKey = "563492ad6f91700001000001a44e25757aa04c96aff139cb4af89274";
+        let pexelsApiUrl = "https://api.pexels.com/v1/search?query=nature&per_page=1";
     }
 
    
