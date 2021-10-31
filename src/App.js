@@ -11,7 +11,7 @@ export default function App() {
         <Header />
             </header>
             <main>
-              <Dictionary defaultkeyword="magic"/>
+              <Dictionary defaultkeyword="sunrise"/>
             </main>
             <footer className="text-center"><small>Coded by Natalie Sharoni</small></footer>
       </div>

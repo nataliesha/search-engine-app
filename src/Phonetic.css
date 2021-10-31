@@ -1,5 +1,5 @@
 .phonetic > .phonetic-button {
-    background-color: #9855fc;
+    background-color: #84D2CB;
     width: 100px;
     height: 40px;
     font-size: 11px;
@@ -16,7 +16,7 @@
 }
 
 .phonetic > .phonetic-button:hover {
-    background-color: #ae7cf9;
+    background-color: #9dd1cd;
     width: 100px;
     height: 40px;
     font-size: 11px;
